@@ -119,7 +119,7 @@ fn main() {
         let menu = menu(vec![
             label("------ SlideSolver ------").colorize(Color::Magenta),
             label("Enter game position with the empty space being '0'"),
-            string("Position", "123456789", false),
+            string("Position", "123456780", false),
             button("Confirm"),
             label("-------------------------").colorize(Color::Magenta),
         ]);
